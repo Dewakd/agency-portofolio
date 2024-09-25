@@ -5,9 +5,9 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="sticky top-0">
       {/* Sticky Navbar container */}
-      <div className="fixed top-0 z-50 flex items-center justify-between w-full p-5 text-white bg-darkBold">
+      <div className="z-50 flex items-center justify-between w-full p-5 text-white bg-darkBold">
         <div className="text-lg font-bold">Agency</div>
         <button onClick={() => setIsOpen(!isOpen)} className="text-white md:hidden">
           {isOpen ? (
