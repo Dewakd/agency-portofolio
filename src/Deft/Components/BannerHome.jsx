@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../Components/Button';
 export default function BannerHome() {
   return (
     <div className="pt-[68px] text-white">
@@ -9,7 +10,7 @@ export default function BannerHome() {
         <div className="px-[24px] pt-2">
           <h1 className="text-3xl font-extrabold leading-[30px]">Crafting Digital Experience to help Brands Grow</h1>
           <p className="text-lg font-light my-[26px]">The digital agency with a human approach</p>
-          <button className="px-5 py-[12px] font-bold uppercase text-[14px] bg-red">Check out our work</button>
+          <Button buttonText={"Check out our work"}/>
         </div>
       </div>
     </div>
