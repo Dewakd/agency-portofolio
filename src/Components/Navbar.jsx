@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+function Navbar(props) {
+  const {isOpen, setIsOpen} = props;
 
   return (
     <div className="sticky top-0">
@@ -31,8 +31,8 @@ function Navbar() {
       </div>
 
       {/* Mobile Menu and Overlay */}
-      <div className={`fixed inset-0 bg-darkBold bg-opacity-50 z-0 transition-opacity ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'} `} onClick={() => setIsOpen(false)}></div>
-      <div className={`fixed top-0 py-[68px] -left-1 w-[75%] max-w-md bg-darkBold h-full z-30 p-5 space-y-5 transform duration-[300ms] transition-transform ${isOpen ? 'translate-x-0 left-0' : '-translate-x-full'}`}>
+      <div className={`fixed inset-0 bg-darkBold bg-opacity-80 z-0 transition-opacity ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'} `} onClick={() => setIsOpen(false)}></div>
+      <div className={`fixed top-0 -left-1 w-[75%] max-w-md bg-darkBold h-full z-30 p-5 space-y-5 transform duration-[300ms] transition-transform ${isOpen ? 'translate-x-0 left-0' : '-translate-x-full'}`}>
         <ul className='font-semibold text-white'>
           <li className='py-3 border-b hover:text-red border-b-gray-700'><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
           <li className='py-3 border-b hover:text-red border-b-gray-700'><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
