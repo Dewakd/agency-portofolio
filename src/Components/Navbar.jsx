@@ -1,13 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar(props) {
   const {isOpen, setIsOpen} = props;
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  // Handle scroll event
+  const handleScroll = () => {
+    if (window.scrollY > 30) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 z-10">
       {/* Sticky Navbar container */}
-      <div className="z-50 flex items-center justify-between w-full p-5 text-white bg-darkBold">
+      <div className={`z-50 flex items-center justify-between w-full px-[140px] text-white transition-all duration-300 ease-in-out ${isScrolled ? 'bg-lightGray py-[25px]' : 'bg-darkBold py-[35px]'}`}>
         <div className="text-lg font-bold">Agency</div>
         <button onClick={() => setIsOpen(!isOpen)} className="text-white md:hidden">
           {isOpen ? (
@@ -21,10 +38,10 @@ function Navbar(props) {
           )}
         </button>
         {/* Desktop links */}
-        <ul className="hidden mr-10 space-x-8 font-semibold md:flex">
+        <ul className="hidden space-x-8 font-semibold md:flex uppercase">
           <li><Link to="/" className="text-white hover:text-red">Home</Link></li>
           <li><Link to="/about" className="text-white hover:text-red">About</Link></li>
-          <li><Link to="/works" className="text-white hover:text-red">Works</Link></li>
+          <li><Link to="/workpage" className="text-white hover:text-red">Works</Link></li>
           <li><Link to="/services" className="text-white hover:text-red">Services</Link></li>
           <li><Link to="/contact" className="text-white hover:text-red">Contact</Link></li>
         </ul>

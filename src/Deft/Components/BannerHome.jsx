@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../../Components/Button';
 export default function BannerHome() {
   return (
-    <div className="text-white md:w-[80vw] md:mx-auto px-[12px]">
+    <div className="text-white md:w-[85vw] md:mx-auto px-[12px]">
       <div className=" bg-fun-background font-poppins md:h-[100vh] lg:-mt-[62px] h-[62vh] flex justify-center md:justify-start items-center bg-center bg-cover" style={{
         backgroundColor: 'rgba(127, 90, 240, 1)', // RGBa ungu dengan opasitas
         backgroundBlendMode: 'multiply'

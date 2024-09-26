@@ -9,6 +9,7 @@ export default {
         lightRed: "#dc3545",
         darkBold: "#0b1016",
         darkGray: "#0d161d",
+        lightGray: "#131d26",
         lightDark: "#343a40",
         text: "#a2a9bf",
         light: "#f8f9fa",
@@ -18,8 +19,13 @@ export default {
         roboto: ["Roboto", "sans-serif"],
       },
       backgroundImage: {
-        "fun-background": "url('./src/assets/img/bannerhome.jpg')",
-        whoWeAre: "url(./src/assets/img/whoweare.jpg)",
+        "fun-background":
+          "url('https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')",
+
+        "work-banner-background":
+          "url('https://images.pexels.com/photos/5553052/pexels-photo-5553052.jpeg?auto=compress&cs=tinysrgb&w=600')",
+        "whoWeAre": 
+          "url(./src/assets/img/whoweare.jpg)",
       },
       backgroundBlendMode: {
         multiply: "multiply",

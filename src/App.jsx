@@ -5,6 +5,8 @@ import Home from "./Deft/Pages/Home";
 import Cta from "./Components/Cta";
 import Footer from "./Components/Footer";
 import WorkPage from './dewa/pages/WorkPage';
+import Contact from './dewa/pages/Contact';
+// import WorkSinglePage from './dewa/pages/WorkSinglePage';
 
 function App() {
   // usestate of nav
@@ -18,6 +20,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/workPage" element={<WorkPage/>} />
+          <Route path="/contact" element={<Contact/>} />
+          {/* <Route path="/workSinglePage" element={<WorkSinglePage/>} /> */}
+          
         </Routes>
         <Footer isOpen={isOpen}/>
       </div>
