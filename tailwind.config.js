@@ -24,6 +24,14 @@ export default {
       backgroundBlendMode: {
         multiply: "multiply",
       },
+      backgroundSize: {
+        "120%": "120%",
+      },
+    },
+  },
+  variants: {
+    extend: {
+      backgroundSize: ["hover"], // Aktifkan hover untuk backgroundSize
     },
   },
   plugins: [],

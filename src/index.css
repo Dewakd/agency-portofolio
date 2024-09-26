@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-zoom-rotate {
+  background-size: 100%;
+  transition: background-size 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.bg-zoom-rotate:hover {
+  background-size: 110%;
+}

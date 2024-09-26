@@ -17,7 +17,7 @@ export default function () {
           </div>
           <div>
             <CardWWA icon="streamline:bag-suitcase-2" header="Discover & Sharing" description="Whether you are fortune we Discover & share products with top creative talent. " />
-            <CardWWA icon="ci:arrow-reload-02" header="Discover & Sharing" description="Unlock opportunity by creating human-centered products to build faster." />
+            <CardWWA icon="ci:arrow-reload-02" header="Build Faster" description="Unlock opportunity by creating human-centered products to build faster." />
           </div>
         </div>
       </div>
