@@ -18,8 +18,8 @@ export default {
         roboto: ["Roboto", "sans-serif"],
       },
       backgroundImage: {
-        "fun-background":
-          "url('https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')",
+        "fun-background": "url('./src/assets/img/bannerhome.jpg')",
+        whoWeAre: "url(./src/assets/img/whoweare.jpg)",
       },
       backgroundBlendMode: {
         multiply: "multiply",

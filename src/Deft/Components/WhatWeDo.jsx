@@ -7,7 +7,7 @@ export default function WhatWeDo() {
       <div className="md:w-[285px] md:flex md:flex-col md:justify-center">
         <div className="flex items-center gap-4">
           <span className="w-[20px] h-[3px] bg-red"></span>
-          <h2 className="font-semibold uppercase text-[14px] text-text">What we do</h2>
+          <h2 className="font-semibold uppercase text-[14px] text-text ">What we do</h2>
           <span className="w-[20px] h-[3px] bg-red"></span>
         </div>
         <h1 className="text-white text-[22px] md:text-[30px] font-bold mt-[12px]">Innovations and impact</h1>
