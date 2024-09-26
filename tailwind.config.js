@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         red: "#FF4157",
-        lightRed: "#dc3545",
+        darkRed: "#dc3545",
         darkBold: "#0b1016",
         darkGray: "#0d161d",
         lightGray: "#131d26",
@@ -24,8 +24,8 @@ export default {
 
         "work-banner-background":
           "url('https://images.pexels.com/photos/5553052/pexels-photo-5553052.jpeg?auto=compress&cs=tinysrgb&w=600')",
-        "whoWeAre": 
-          "url(./src/assets/img/whoweare.jpg)",
+        whoWeAre: "url(./src/assets/img/whoweare.jpg)",
+        award: "url(./src/assets/img/award.png)",
       },
       backgroundBlendMode: {
         multiply: "multiply",

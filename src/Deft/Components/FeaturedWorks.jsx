@@ -11,7 +11,7 @@ export default function FeaturedWorks() {
     : worksData.filter(work => work.category === selectedCategory);
 
   return (
-    <div className="bg-darkBold md:py-[150px] py-[75px]">
+    <div className="bg-darkBold md:pt-[150px] pt-[75px]">
       <div className="flex flex-col items-center px-[12px] max-w-2xl mx-auto">
         <div className="flex items-center gap-4  mb-[13px]">
           <span className="w-[20px] h-[3px] bg-red"></span>

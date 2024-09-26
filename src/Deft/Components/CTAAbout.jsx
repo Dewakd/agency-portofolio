@@ -10,7 +10,7 @@ export default function () {
           <h1 className='text-white text-[22px] font-bold leading-7 font-poppins mb-[13px] sm:text-[30px] md:leading-[50px]'>We help clients to create Digital amazing experience. </h1>
           <p className='text-white text-[20px] md:text-[24px] font-light font-roboto'>We can help you to unlock opportunity by creating human-centered products.</p>
           <p className='text-text mt-[10px] font-roboto'>Our designers and engineers know collaboration is the essence of any project. It’s a simple philosophy we followed for nearly two decades. And it delivers results.</p>
-          <a href="" className='uppercase px-[20px] md:py-[15px] md:px-[30px] py-[10px] bg-red text-white font-bold font-poppins text-[14px] mt-[23px] inline-block'>About Us</a>
+          <a href="" className='uppercase px-[20px] md:py-[15px] md:px-[30px] py-[10px] bg-red text-white font-bold font-poppins text-[14px] mt-[23px] inline-block hover:bg-darkRed'>About Us</a>
         </div>
       </div>
     </div>
