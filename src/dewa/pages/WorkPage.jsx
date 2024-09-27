@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../../Components/Banner";
 import Cta from "../../Components/Cta";
+import FeaturedWorks from "../../Deft/Components/FeaturedWorks";
 
 
 export default function WorkPage() {
@@ -10,8 +11,8 @@ export default function WorkPage() {
   return (
     <div className="bg-darkBold">
       <Banner title={title} description={description} img={img} button={false}/>
-      <div className="py-[150px]">
-        <h1 className="text-4xl text-light">Some highlights of work we've done for forward thinking clients.</h1>
+      <div className="pb-[150px]">
+        <FeaturedWorks CTA = {false}/>
       </div>
       <Cta />
     </div>

@@ -6,10 +6,10 @@ export default function Footer(props) {
     const {isOpen} = props;
     
   return (
-    <div className="bg-darkBold text-white">
+    <div className="bg-lightGray text-white py-[60px]">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-                <div className="space-y-8 xl:col-span-1">
+            <div className="xl:grid xl:grid-cols-[auto,1fr,1fr] xl:gap-8">
+                <div className="space-y-8 xl:col-span-1 xl:w-[300px]">
                     <img
                         className="h-10"
                         src="/logo.svg" // Path to your logo

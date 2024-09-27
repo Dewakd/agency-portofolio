@@ -24,7 +24,7 @@ function Navbar(props) {
   return (
     <div className="sticky top-0 z-10">
       {/* Sticky Navbar container */}
-      <div className={`z-50 flex items-center justify-between w-full px-[140px] text-white transition-all duration-300 ease-in-out ${isScrolled ? 'bg-lightGray py-[25px]' : 'bg-darkBold py-[35px]'}`}>
+      <div className={`font-poppins z-50 snap-y flex items-center justify-between w-full px-[20px] md:px-[100px] lg:px-[100px] xl:px-[150px]  text-white transition-all duration-300 ease-in-out ${isScrolled ? 'bg-lightGray py-[25px]' : 'bg-darkBold py-[35px] snap-none'}`}>
         <div className="text-lg font-bold">Agency</div>
         <button onClick={() => setIsOpen(!isOpen)} className="text-white md:hidden">
           {isOpen ? (
