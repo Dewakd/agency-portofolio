@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'; // Import Link
 import worksData from "../../WorksData"; // Assuming this is where your works data is
 
 export default function FeaturedWorks(props) {
-  const {CTA} = props
+  const { CTA } = props
   const [selectedCategory, setSelectedCategory] = useState("All");
   const categories = ["All", "Website", "UI/UX", "App", "Graphic Design"];
 
@@ -53,14 +53,14 @@ export default function FeaturedWorks(props) {
           </Link>
         ))}
       </div>
-      {CTA ?       
+      {CTA ?
         <div className="flex md:flex-row md:justify-between flex-col items-center justify-center bg-darkGray py-[60px] md:px-[400px]">
           <h1 className="font-poppins text-[22px] text-white text-center md:mb-0 mb-[20px] md:text-[30px]">Want to see our more creative work?</h1>
           <Link className="uppercase bg-red " to="/work">
             <p className="text-[14px] font-poppins text-white font-bold px-[20px] py-[10px] md:py-[13px] md:px-[30px]">See all work</p>
           </Link>
-        </div> 
-      : null}
+        </div>
+        : null}
 
     </div>
   );
