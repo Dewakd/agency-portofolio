@@ -4,7 +4,7 @@ import CardWWD from "./CardWWD";
 export default function WhatWeDo() {
   return (
     <div className="bg-darkBold">
-      <div className="py-16 md:flex font font-poppins md:justify-between md:w-[80%] md:mx-auto md:px-[120px] px-[12px]">
+      <div className="py-16 md:flex font font-poppins md:justify-between md:w-[80%] md:mx-auto xl:px-[120px] px-[12px]">
         <div className="md:w-[285px] md:flex md:flex-col md:justify-center">
           <div className="flex items-center gap-4">
             <span className="w-[20px] h-[3px] bg-red"></span>
@@ -16,11 +16,11 @@ export default function WhatWeDo() {
           <Button buttonText={"Discover More"} />
         </div>
         <div className="mt-[22px] md:flex md:justify-between md:items-start md:w-[60%]">
-          <div className="">
+          <div className="md:w-1/2">
             <CardWWD icon="tabler:adjustments" header="Digital Media" description="Seamless integration across all digital media channels with advanced targeting fullcombined handful." />
             <CardWWD icon="fluent:notepad-sparkle-20-regular" header="Strategy" description="From concept to execution, we create digital campaigns from scratch and show combined with of structures." />
           </div>
-          <div className="">
+          <div className="md:w-1/2">
             <CardWWD icon="streamline:layers-2" header="Development" description="We use the latest technology and we never stop learning and that's why model sentence structures." />
             <CardWWD icon="bi:bar-chart-line" header="Analytics" description="From concept to execution, we create digital structures campaigns from scratch and show you ." />
           </div>
