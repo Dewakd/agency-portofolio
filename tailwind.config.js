@@ -28,6 +28,7 @@ export default {
         award: "url(./src/assets/img/award.png)",
         imgBanner: "url(./src/assets/img/about/banner.png)",
         WhyChoose: "url(./src/assets/img/about/2.png)",
+        serviceBanner : "url('https://images.pexels.com/photos/3695238/pexels-photo-3695238.jpeg?auto=compress&cs=tinysrgb&w=600')"
       },
       backgroundBlendMode: {
         multiply: "multiply",

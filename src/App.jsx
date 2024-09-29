@@ -6,6 +6,7 @@ import About from './Deft/Pages/About';
 import Home from "./Deft/Pages/Home";
 import Contact from './dewa/pages/Contact';
 import WorkPage from './dewa/pages/WorkPage';
+import Services from './dewa/pages/Services'; 
 // import WorkSinglePage from './dewa/pages/WorkSinglePage';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/workPage" element={<WorkPage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/services" element={<Services/>} />
           {/* <Route path="/workSinglePage" element={<WorkSinglePage/>} /> */}
 
         </Routes>

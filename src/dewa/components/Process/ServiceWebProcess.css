@@ -1,0 +1,17 @@
+.mySwiper .swiper-scrollbar {
+    background-color: #f0f0f0; /* Scrollbar background */
+    height: 2px; /* Scrollbar height */
+    border-radius: 4px; /* Rounded edges */
+    opacity: 70%;
+  }
+  
+  .mySwiper .swiper-scrollbar-drag {
+    background-color: #ff0000; /* Color of the draggable scroll bar */
+    border-radius: 4px;
+    height: 2px;
+    opacity: 70%; /* Make sure the height matches the scrollbar container */
+  }
+  
+  .mySwiper .swiper-scrollbar-drag:hover {
+    background-color: #ff3333; /* Change color on hover for better visibility */
+  }

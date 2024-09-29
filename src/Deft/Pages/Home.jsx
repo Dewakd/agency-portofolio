@@ -16,7 +16,7 @@ export default function Home() {
       <WhoWeAre />
       <CTAAbout />
       <OurProcess />
-      <FeaturedWorks />
+      <FeaturedWorks CTA = {true}/>
       <Award />
       <Company />
       <Cta />

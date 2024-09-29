@@ -12,14 +12,14 @@ export default function ContactForm() {
           <h2 className="text-2xl font-bold mb-8 font-poppins w-full sm:text-3xl sm:w-[80%] md:w-[60%] lg:w-[30%] sm:leading-10">Describe your project and leave us your contact info</h2>
           <div className="hidden grid-cols-1 md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:max-w-7xl lg:mx-auto ">
             <div>
-              <input className="mb-[20px] py-[19px] xl:w-[350px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="Your Name" />
-              <input className="mb-[20px] py-[19px] xl:w-[350px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="Your Address" />
-              <input className="mb-[20px] py-[19px] xl:w-[350px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="When do you want to start?" />
+              <input className="mb-[20px] py-[19px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="Your Name" />
+              <input className="mb-[20px] py-[19px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="Your Address" />
+              <input className="mb-[20px] py-[19px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="When do you want to start?" />
             </div>
             <div>
-              <input className="mb-[20px] py-[19px] xl:w-[350px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="Your Email" />
-              <input className="mb-[20px] py-[19px] xl:w-[350px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="Your Company" />
-              <select className="mb-[20px] py-[19px] xl:w-[350px] w-full bg-transparent border-b border-opacity-40 border-gray-500 text-text">
+              <input className="mb-[20px] py-[19px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="Your Email" />
+              <input className="mb-[20px] py-[19px] w-full bg-transparent border-b border-opacity-40 border-gray-500" placeholder="Your Company" />
+              <select className="mb-[20px] py-[19px] w-full bg-transparent border-b border-opacity-40 border-gray-500 text-text">
                 <option>What your Budget</option>
               </select>
             </div>
@@ -41,7 +41,7 @@ export default function ContactForm() {
             </div>
           </div>
           <div className='hidden md:block'>
-            <textarea className="w-[700px] md:w-[600px] xl:w-[800px] block bg-transparent border-b border-gray-500 py-2 mb-4" placeholder="Briefly tell us about your project." />
+            <textarea className="w-[700px] md:w-full xl:w-[800px] block bg-transparent border-b border-gray-500 py-2 mb-4" placeholder="Briefly tell us about your project." />
             <Button buttonText="Send Message"/>
           </div>
             {/* On Mobile */}
